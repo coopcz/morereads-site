@@ -203,6 +203,46 @@ body {
     box-shadow: var(--shadow-medium);
 }
 
+/* App Store Button Styles */
+.header-appstore-btn {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.header-appstore-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+.appstore-badge {
+    height: 40px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+.main-appstore-btn {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.main-appstore-btn:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+}
+
+.final-appstore-btn {
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.final-appstore-btn:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.1);
+}
+
 /* Main Content */
 .main-content {
     padding-top: 100px;
